@@ -1,10 +1,12 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div className="">
       <section className="h-[100vh] snap-center ">
-        <a href="#" className=" text-inherit">Link</a>
+        <Navbar />
+        {/* <a href="#" className=" text-inherit">Link</a> */}
       </section>
       <section className="h-[100vh] snap-center ">Parallax</section>
       <section className="h-[100vh] snap-center ">Service</section>
