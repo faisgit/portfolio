@@ -3,12 +3,10 @@ import ProfilePhoto from "../assets/photo.jpg";
 import { GitHub, LinkedIn } from "@mui/icons-material";
 export const Hero = () => {
   return (
-    <div className=" h-96 mt-32 md:mt-20 flex flex-col md:flex-row gap-7 md:gap-20 justify-center items-center px-20 ">
-      <div className="avatar">
-        <div className="w-72 rounded-full">
-          <img src={ProfilePhoto} alt="" />
+    <div className=" h-[75vh] mt-32 md:mt-20 flex flex-col md:flex-row gap-7 md:gap-20 justify-center items-center px-14 md:px-20 ">
+        <div className="">
+          <img src={ProfilePhoto} alt=""  className=" h-52 w-52 md:h-72 md:w-72 rounded-full" />
         </div>
-      </div>
       <div className="flex flex-col justify-center items-center">
         <p className="text-xs font-semibold ">Hello, I'm</p>
         <h1 className=" text-3xl font-bold ">Faisal Ansari</h1>
