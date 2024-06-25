@@ -1,21 +1,16 @@
-import React from "react";
-
+import React from 'react'
+import aboutImage from "../assets/about.png"
 export const AboutMe = () => {
   return (
-    <div className="flex flex-col justify-center items-center mt-16">
-      <div className="flex justify-center items-center flex-col ">
-        <p className=" font-semibold text-sm ">Get To Know More</p>
-        <h1 className="text-3xl font-semibold mb-2">About Me</h1>
-        <p className="w-96 text-sm ">
-          Hello! I'm Faisal Ansari, a budding frontend developer with a passion
-          for crafting engaging user experiences. Armed with HTML, CSS, and
-          JavaScript skills, I'm eager to contribute fresh ideas and learn from
-          experienced teams. Let's create something extraordinary together!
-        </p>
+    <div className='flex flex-col md:flex-row justify-between items-center my-5 md:px-10 lg:px-32 xl:px-52' id='AboutMe'>
+      <div className=' w-80 lg:w-96'>
+        <img src={aboutImage} alt="" />
       </div>
       <div>
-        <div className="flex justify-center items-center flex-col "></div>
+        <h6 className='text-sm text-[#457b9d] font-sans font-semibold mb-3'>About</h6>
+        <h3 className=' font-extrabold text-3xl mb-3'>About Me ?</h3>
+        <p className='  w-80 lg:w-96 text-[#455a64] font-semibold text-xs lg:text-sm mb-3'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat ut, ipsum nobis delectus harum vitae autem blanditiis laudantium laboriosam eum, dicta placeat quaerat molestiae illo maiores beatae assumenda necessitatibus quod voluptas praesentium tempore, facere ex?</p>
       </div>
     </div>
-  );
-};
+  )
+}
