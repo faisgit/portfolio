@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "title": "Tody.app",
+      "description": "Tody.app is a simple and modern task management application designed to improve daily productivity.\nIt allows users to create, manage, update, and complete tasks easily.\nThe app provides a clean and user-friendly interface for managing daily activities.\nFlutter is used for the mobile application development.\nAppwrite provides secure authentication and cloud-based data storage.\nTody.app helps users stay organized, focused, and productive every day.",
+      "link": "https://github.com/faisgit/todo_app_flutter",
+      "tags": [
+        "Flutter",
+        "Appwrite",
+        "Provider"
+      ],
+      "id": "e130061a-de13-4fba-995c-d9804003eda3"
+    },
+    {
+      "title": "Convertix",
+      "description": "Convertix is an offline file conversion app for Android that processes files directly on the user's device.\nIt currently supports PDF to JPG, Images to JPG, and Files to ZIP conversion.\nThe app focuses on privacy, simplicity, and fast local processing without uploading files to a server.\nMore file conversion and document tools can be added in future updates.",
+      "link": "https://github.com/faisgit/convertix",
+      "tags": [
+        "Flutter",
+        "provider",
+        "go router",
+        "hive"
+      ],
+      "id": "697a24e3-68b9-4611-9fb2-c6905a679362"
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Mobile App Developer",
+      "company": "ASAP NEXT SOLUTIONS",
+      "startDate": "Feb 2025",
+      "endDate": "",
+      "description": "Developed and maintained cross-platform Flutter applications, contributed to the migration from FlutterFlow/Firebase to a scalable Flutter, Express.js, and MongoDB architecture, built responsive UI and Admin Panel features, integrated REST APIs, and implemented state management using Provider, BLoC, and Cubit.",
+      "id": "fe3f3966-4032-48bc-8e55-9d598602e3c3"
+    }
+  ]
+}
