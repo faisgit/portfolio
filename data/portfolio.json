@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Tody.app",
-      "description": "Tody.app is a simple and modern task management application designed to improve daily productivity.\nIt allows users to create, manage, update, and complete tasks easily.\nThe app provides a clean and user-friendly interface for managing daily activities.\nFlutter is used for the mobile application development.\nAppwrite provides secure authentication and cloud-based data storage.\nTody.app helps users stay organized, focused, and productive every day.",
+      "description": "A Flutter task manager focused on fast daily capture, clean task states, and simple editing flows.\nBuilt with Appwrite authentication and cloud storage so users can manage personal tasks across sessions.\nThe UI keeps the common actions close: create, update, complete, and review without extra screens.",
       "link": "https://github.com/faisgit/todo_app_flutter",
       "tags": [
         "Flutter",
@@ -13,7 +13,7 @@
     },
     {
       "title": "Convertix",
-      "description": "Convertix is an offline file conversion app for Android that processes files directly on the user's device.\nIt currently supports PDF to JPG, Images to JPG, and Files to ZIP conversion.\nThe app focuses on privacy, simplicity, and fast local processing without uploading files to a server.\nMore file conversion and document tools can be added in future updates.",
+      "description": "An offline Android file-conversion utility where files stay on the device instead of being uploaded.\nCurrent flows include PDF to JPG, image to JPG, and ZIP creation.\nThe product direction is privacy-first document tooling with simple local processing.",
       "link": "https://github.com/faisgit/convertix",
       "tags": [
         "Flutter",
