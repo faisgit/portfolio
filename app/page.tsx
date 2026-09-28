@@ -100,7 +100,7 @@ export default function Home() {
       <Navbar />
 
       <main className="mx-auto max-w-6xl px-4 pb-16 pt-36 sm:px-6 sm:pt-28 lg:px-8">
-        <section id="home" className="grid min-h-[auto] items-center gap-8 pb-12 pt-6 sm:min-h-[78vh] sm:gap-10 sm:pb-16 sm:pt-14 lg:grid-cols-[1.15fr_0.85fr]">
+        <section id="home" className="grid min-h-[auto] items-start gap-8 pb-12 pt-6 sm:min-h-[78vh] sm:gap-10 sm:pb-16 sm:pt-14 lg:grid-cols-[1.15fr_0.85fr]">
           <motion.div initial={{ opacity: 0, y: 22 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.55 }}>
             <p className="mb-4 font-mono text-[11px] uppercase tracking-[0.18em] text-[#b65332] sm:mb-5 sm:text-xs sm:tracking-[0.22em]">
               Mobile app and web developer / Nagpur
@@ -141,7 +141,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 22 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.55, delay: 0.12 }}
-            className="rounded-[1.5rem] border border-zinc-900/10 bg-[#fffaf2]/78 p-4 shadow-sm backdrop-blur sm:rounded-[2rem] sm:p-6"
+            className="rounded-[1.5rem] border border-zinc-900/10 bg-[#fffaf2]/78 p-4 shadow-sm backdrop-blur sm:rounded-[2rem] sm:p-6 lg:mt-16"
           >
             <p className="font-mono text-xs uppercase tracking-[0.2em] text-zinc-500">Current focus</p>
             <div className="mt-5 space-y-4">
